@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Medicine Reminder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💊 Medicine Reminder</h1>
+  <form id="reminderForm">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="medicine" placeholder="Medicine Name" required>
+    <input type="text" name="dosage" placeholder="Dosage (e.g., 500mg)" required>
+    <input type="time" name="time" required>
+    <input type="date" name="date" required>
+    <button type="submit">Add Reminder</button>
+  </form>
+
+  <h2>📋 All Reminders</h2>
+  <ul id="reminderList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
